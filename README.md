@@ -1,4 +1,4 @@
-## serv00与ct8自动化批量保号，每3天自动登录一次面板，并且发送消息到Telegram
+## serv00与ct8自动化批量保号，每3天自动登录一次面板，支持将运行结果发送到Telegram、PushPlus。
 
 ## 视频教程看这里
 [免费白嫖10年VPS服务器serv00 并且一键部署自己的专属自建Vless节点 ｜小白教程｜自动化批量保号](https://youtu.be/QnlzpvDl_mo)
@@ -76,6 +76,13 @@
           ]
       ```
     - 获取方法: 创建一个包含serv00账号信息的 JSON 文件，并将其内容添加到 GitHub 仓库的 Secrets 中。
+
+- **PUSH_PLUS_TOKEN**
+
+    - 作用：支持将消息推送到pushplus微信公众号。
+    - 示例值：`dad8515EFghijklmnopQRSTuvwxyZ444e3bb81f05`
+    - 获取方法：关注pushplus微信公众号获取。参考文档 `https://www.pushplus.plus/doc/`。
+
 
 ### 注意事项
 
